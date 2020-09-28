@@ -45,4 +45,9 @@
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Age%20Range.png)
 
 ### Multiple Linear Regression
+- We will conduct a multiple linear regression to determine whether we can predict the number of impressions from the ad's number of days, spending, and age range targeted. 
+- Create a new tab called "Relevant Columns from Data." Only copy and paste the following columns: ADID, Impressions, Number of Days, Age Range, and Spending. 
+- We are going to test for multicollinearity. Under Data, select "Data Analysis" and "Correlation." Use the "Number of Days," "Age Range" and "Spending" columns as the input range, select "Labels in the First Row," and hit "Enter." 
+
+![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Multicollinearity.png)
 ### Creating Data Visuals
