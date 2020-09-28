@@ -6,6 +6,9 @@
   -   If there is an EndDate, then the StartDate will be subtracted from the EndDate to get the number of days.
   -   If there is no EndDate, then the StartDate will be subtracted from today's date to get the number of days. 
   - Note: EndDate and StartDate refer to the cells with those values
+  
+![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Calcualte%20Number%20of%20Days.png)
+
 ### Removing Data Points With Zero or Negative Number of Days
 - Several political ads have started and ended on the same day. Others have end dates that are earlier than their start dates, which results in a negative number of days. We want to eliminate these values from our analysis, so create a column next to "Number of Days" called "Negative or 0?"
 - Enter the following formula: =IF(NumberOfDays>0,"No","Yes")
