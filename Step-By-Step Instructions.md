@@ -41,6 +41,7 @@
   - Enter the following formula: =IF(ISBLANK(EndAgeVersion1)=TRUE,"80",EndAgeVersion1)
   - This formula says that if the end age is blank, then use 80 for that value. Otherwise, use the existing end value
   - Apply this formula to all cells in "End Age Version 2"
+- Under the "Age Range" column, enter the following formula: =EndAgeVersion2 - StartAgeVersion1
 
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Age%20Range.png)
 
@@ -58,3 +59,9 @@
 
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Multiple%20Linear%20Regression.png)
 ### Creating Data Visuals
+- Create a new tab called "Data Visuals." We are going to create a scatterplot representing the relationship between spending and the number of impressions. Copy and paste the "ADID," "Spending," and "Impressions" columns from the original data set into the "Data Visuals" tab.
+- Select both the "Impressions" and "Spending" columns. Select "Insert" and "Scatterplot." 
+- Rename the graph's title as "How Spending Impacts Number of Impressions," the x-axis as the "Spending (USD)," and the y-axis as "Number of Impressions."
+- Insert a trendline and add the equation as well as the R squared value. 
+
+![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Data%20Visual.png)
