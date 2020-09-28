@@ -29,5 +29,20 @@
   - Label the new column "End Age Version 1"
   
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Screen%20Shot%202020-09-28%20at%206.49.31%20PM.png)
+
+- Some political ads have age ranges that are "18+" or "17-." For age brackets with no upper limit, we are going to use 80. For age brackets with no lower limit, we are going to use 0. 
+- Next to "End Age Version 1" column, insert 2 columns called "Start Age Version 2" and "End Age Version 2." 
+- Copy the data from "Start Age Version 1" to "Star Age Version 2." Do the same for "End Age Version 1" and "End Age Version 2"
+- Under "Start Age Version 2," filter for "blank." 
+  - Enter the following formula: =IF(ISBLANK(StartAgeVersion1)=TRUE,"0",StartAgeVersion1)
+  - This formula says that if the start age is blank, then use 0 for that value. Otherwise, use the existing start value
+  - Apply this formula to all cells in "Start Age Version 2"
+- Under "End Age Version 2," filter for "blank."
+  - Enter the following formula: =IF(ISBLANK(EndAgeVersion1)=TRUE,"80",EndAgeVersion1)
+  - This formula says that if the end age is blank, then use 80 for that value. Otherwise, use the existing end value
+  - Apply this formula to all cells in "End Age Version 2"
+
+![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Age%20Range.png)
+
 ### Multiple Linear Regression
 ### Creating Data Visuals
