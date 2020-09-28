@@ -50,4 +50,11 @@
 - We are going to test for multicollinearity. Under Data, select "Data Analysis" and "Correlation." Use the "Number of Days," "Age Range" and "Spending" columns as the input range, select "Labels in the First Row," and hit "Enter." 
 
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Multicollinearity.png)
+
+- We will now do a multiple regression. Under "Data," select "Data Analysis" and "Regression." Select the y-range as the "Impressions" column and the x-range as the "Number of Days," "Age Range," and "Spending" columns. Select "labels" and "residuals" and create a new worksheet called "Multiple Linear Regression."
+- Next to the "Residuals" column, we are going to check for outliers. Create a new column called "outliers" and enter the following formula:
+=IF(ABS(Resdiauls)>2 * Standard Error,"Outlier","Not Outlier")
+  - This formula says that if the absolute value of the residual is greater than 2 standard errors, then the data point is an outlier. 
+
+![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Step-By-Step%20Instructions%20Screenshots/Multiple%20Linear%20Regression.png)
 ### Creating Data Visuals
