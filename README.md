@@ -30,7 +30,7 @@ The R squared value was 0.708354638, which showed that the equation could explai
 
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Multiple%20Linear%20Regression%20Outcomes/Data%20-%20How%20Spending%20Impacts%20Number%20of%20Impressions.png)
 
-This data visual shows that there is an approximately linear relationship between spending and the number of impressions. As spending increases, the amount of impressions does so as well. The R squared value of 0.7028 demonstrates that the linear equation captures around 70% of the data points. 
+This data visual shows that there is an approximately linear relationship between spending and the number of impressions. As spending increases, the amount of impressions does so as well. The R squared value of 0.7028 demonstrates that the linear equation captures around 70% of the data. There are also only around 100 outliers out of approximately 5,000 data points. 
 
 ## Business Answer
 In practice, these results could show that political advertisers could increase the amount of spending, the number of days, and the size of the targeted age range to boost the amount of impressions. To conduct further analysis, I would use data from other social media platforms to explore specifically why the larger the size of the targeted age range, the greater the advertisement's influence. Is this relationship true for other platforms, and when is it preferable to have a small targeted audience versus a large one? 
