@@ -33,3 +33,4 @@ The R squared value was 0.708354638, which showed that the equation could explai
 This data visual shows that there is an approximately linear relationship between spending and the number of impressions. As spending increases, the amount of impressions does so as well. The R squared value of 0.7028 demonstrates that the linear equation captures around 70% of the data points. 
 
 ## Business Answer
+In practice, these results could show that political advertisers could increase the amount of spending, the number of days, and the size of the targeted age range to boost the amount of impressions. To conduct further analysis, I would use data from other social media platforms to explore specifically why the larger the size of the targeted age range, the greater the advertisement's influence. Is this relationship true for other platforms, and when is it preferable to have a small targeted audience versus a large one? 
