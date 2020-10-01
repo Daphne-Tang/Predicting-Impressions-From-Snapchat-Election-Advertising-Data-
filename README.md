@@ -26,7 +26,7 @@ The multiple linear regression yielded the following equation:
 
 Number of Impressions = 3669.276441 (Number of Days) + 5037.776313 (Age Range) + 446.2827378 (Spending) - 492491.6222
 
-The equation shows tht as number of days, age range, and spending increase, the number of impression do as well. Age range also seems to have the most impact, followed by the number of days. The R squared value was 0.708354638, which showed that the equation could explain approximately 71% of the data. All of the p-values for the three independent variables were less than 0.01, and the significance F value was 0. These values demonstrate that the results are statistically significant. As the advertisement's number of days, size of the targeted age range, and spending increases, the number of impressions rise as well. 
+The equation showed that as number of days, age range, and spending increase, the number of impression do as well. Age range also seemed to have the most impact, followed by the number of days. The R squared value was 0.708354638, which demonstrated that the equation could explain approximately 71% of the data. All of the p-values for the three independent variables were less than 0.01, and the significance F value was 0. These values demonstrate that the results are statistically significant. As the advertisement's number of days, size of the targeted age range, and spending increases, the number of impressions rise as well. 
 
 ![alt text](https://github.com/Daphne-Tang/Predicting-Impressions-From-Snapchat-Election-Advertising-Data-/blob/master/Multiple%20Linear%20Regression%20Outcomes/Data%20-%20How%20Spending%20Impacts%20Number%20of%20Impressions.png)
 
